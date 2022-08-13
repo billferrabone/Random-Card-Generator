@@ -1,1 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+/* .divprincipal {
+    background: white;
+    width: 300px;
+    height: 350px;
+} */
