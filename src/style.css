@@ -1,9 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background: green;
+  justify-content: center;
+  display: flex;
 }
-/* .divprincipal {
-    background: white;
-    width: 300px;
-    height: 350px;
-} */
+
+#card {
+  background-color: white;
+  border: 2px;
+  border-radius: 5%;
+  border-color: black;
+  height: 300px;
+  width: 180px;
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.inferior {
+  transform: rotate(180deg);
+  margin: 0 0.1em 0.1em 0;
+}
+
+.superior {
+  margin: 0.1em 0 0 0.1em;
+}
+
+#valor {
+  font-size: 4em;
+  text-align: center;
+}
+.figura {
+  width: 100%;
+  font-size: 3em;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
