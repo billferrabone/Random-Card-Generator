@@ -6,32 +6,34 @@ body {
 
 #card {
   background-color: white;
-  border: 2px;
+  border: black solid;
   border-radius: 5%;
-  border-color: black;
-  height: 300px;
-  width: 180px;
+  /* border-color: black; */
+  height: 450px;
+  width: 300px;
   border-style: solid;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  padding: 5px 20px;
 }
 .inferior {
   transform: rotate(180deg);
-  margin: 0 0.1em 0.1em 0;
+  /* margin: 0 0.1em 0.1em 0; */
 }
 
 .superior {
-  margin: 0.1em 0 0 0.1em;
+  /* margin: 0.1em 0 0 0.1em; */
 }
 
 #valor {
-  font-size: 4em;
+  font-size: 6em;
   text-align: center;
 }
 .figura {
   width: 100%;
-  font-size: 3em;
+  font-size: 4em;
+  /* margin: 5px 20px; */
 }
 
 .black {
